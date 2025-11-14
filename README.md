@@ -53,16 +53,22 @@ usage: caesar.sh [rotation]
 
 ```bash
 echo "Hello World!" | ./caesar.sh
-
+```
 Custom rotation
+
+```bash
 echo "Attack at dawn!" | ./caesar.sh 5
-
+```
 Using a negative rotation
+
+```bash
 echo "Dro aesmu lbygx pyh tewzc yfob dro vkji nyq." | ./caesar.sh -10
-
+```
 Show help
-./caesar.sh -h
 
+```bash
+./caesar.sh -h
+```
 Requirements
 
 -Bash
@@ -77,7 +83,9 @@ Notes
 -The script expects input from stdin, so piping or echo works naturally.
 
 Example:
+```bash
 ./caesar.sh 13
+```
 Hello world!
 <CTRL+D>
 
