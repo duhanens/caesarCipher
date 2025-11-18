@@ -88,7 +88,3 @@ Example:
 ```
 Hello world!
 <CTRL+D>
-
-Author
-
-Written as part of Activity 1: Caesar Cipher for the homework assignment.
